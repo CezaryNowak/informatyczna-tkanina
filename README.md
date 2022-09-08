@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-# Informatyczna Tkanina MAIN ADMIN ADD NEW USER and 
+# Informatyczna Tkanina
 Simple project of website where you can download wallpapers.
 
 ## Table of contents
