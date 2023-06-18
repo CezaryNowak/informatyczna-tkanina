@@ -30,7 +30,7 @@ Simple project of website where you can download wallpapers.
 
 **Informatyczna Tkanina** is a project of responsive website where you can scroll through different wallpapers, use simple filters and download it. Images are scaled down when adding wallpapers for optimization purposes.
 <br>
-**After** logged in you can add new: category, wallpaper, and then you can modify and delete them. Only main(first) admin can register new user and main admin cannot delete its account or change its password. Page is also kinda done by MVC pattern.
+**After** logged in you can add new: category, wallpaper, and then you can modify and delete them. Only main(first) admin can register new user and main admin cannot delete its account or change its password. Page is also kinda done by MVC pattern(In progress).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
