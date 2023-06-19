@@ -8,13 +8,13 @@
             <div class="dropdown-menu">
                 <div class="list-group">
 									<?php
-									require_once setDefaultPath('controllers/layout/navbarController.php');
+									require_once 'controllers/layout/navbarController.php';
 									?></div>
             </div>
         </div>
         <div class="nav-item">
             <a class="text-white border-lighterBlue bg-lighterBlue py-4 btn"
-               href="<?php echo setDefaultPath("kategoria.php"); ?>">WSZYSTKIE TAPETY</a>
+               href="<?=  "kategoria.php"; ?>">WSZYSTKIE TAPETY</a>
         </div>
     </div>
 

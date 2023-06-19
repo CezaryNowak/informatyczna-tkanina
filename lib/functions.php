@@ -1,28 +1,6 @@
 <?php
 
 /**
- * Sets default path to file.
- *
- * @param string|null $dir
- *   Default path for file.
- * @param boolean $cssFile
- *   Is it css file.
- *
- * @return string
- */
-function setDefaultPath(string $dir = NULL, bool $cssFile = FALSE): string
-{
-	$path = NULL;
-	if (file_exists($dir))
-		$path = $dir;
-	else if (file_exists("../$dir") && !$cssFile)
-		$path = "../".$dir;
-	else if (file_exists("../$dir") && $cssFile)
-		$path = '.'.$dir;
-	return $path;
-}
-
-/**
  * Creates random string.
  *
  * @param int $n

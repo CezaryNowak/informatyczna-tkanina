@@ -26,7 +26,7 @@ foreach ($categories as $cat)
 	}
 	else
 	{
-		echo '<a class="fw-bold list-group-item d-flex justify-content-between align-items-center dropdown-item p-1" href="'.setDefaultPath("kategoria.php").'?id='.$cat['id'].'">'.$cat['category'].'<span class="badge bg-primary rounded-pill">'.$cat['count'].'</span> </a>';
+		echo '<a class="fw-bold list-group-item d-flex justify-content-between align-items-center dropdown-item p-1" href="'."kategoria.php".'?id='.$cat['id'].'">'.$cat['category'].'<span class="badge bg-primary rounded-pill">'.$cat['count'].'</span> </a>';
 	}
 }
 /**

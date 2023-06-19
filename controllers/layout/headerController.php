@@ -6,5 +6,5 @@ if (!isset($_SESSION["logged_id"]))
 }
 else
 {
-	echo "<a class='btn btn-danger p-3' href='".setDefaultPath("admin/logout.php")."'>WYLOGUJ</a>";
+	echo "<a class='btn btn-danger p-3' href='admin/logout.php'>WYLOGUJ</a>";
 }

@@ -1,6 +1,6 @@
 <?php
 
-include_once setDefaultPath("data/setupData.php");
+include_once "data/setupData.php";
 /**
  * Updates category of wallpaper in database.
  *

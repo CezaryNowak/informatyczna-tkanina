@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 require_once "lib/functions.php";
 require_once "data/dataFunctions.php";
@@ -18,13 +17,13 @@ require_once "layout/header.php";
         <h1 class="text-white text-center p-3">Najnowsze tapety</h1>
         <div class="container-fluid">
             <div class="d-flex flex-wrap justify-content-center">
-							<?php $index->echoNewestWalls(); ?>
+                <?php $index->echoNewestWalls(); ?>
             </div>
         </div>
         <h1 class="text-white text-center p-3">Tapety o największej rozdzielczości</h1>
         <div class="container-fluid">
             <div class="d-flex flex-wrap justify-content-center">
-							<?php $index->echoBiggestWalls(); ?>
+                <?php $index->echoBiggestWalls(); ?>
             </div>
         </div>
     </main>

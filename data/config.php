@@ -1,8 +1,8 @@
 <?php
 
-$configVars = array('host' => 'localhost', //host
-                    'database' => 'informatyczna-tkanina', //database name
-                    'user' => 'root', //name of user
-                    'password' => NULL); //password if is set
+$configVars = array('host' => 'mysql', //host
+                    'database' => 'db', //database name
+                    'user' => 'user', //name of user
+                    'password' => 'password'); //password if is set
 
 return $configVars;

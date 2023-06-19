@@ -1,6 +1,6 @@
 <?php
 
-$GLOBALS['pdo'] = require setDefaultPath("data/setupData.php");
+$GLOBALS['pdo'] = require "setupData.php";
 /**
  * Gets data without variables.
  *
@@ -19,6 +19,6 @@ function setData(string $request = NULL, bool $one = FALSE): array | null
 		return $result->fetch();
 }
 
-include_once setDefaultPath("data/adminsFunctions.php");
-include_once setDefaultPath("data/categoriesFunctions.php");
-include_once setDefaultPath("data/wallpapersFunctions.php");
+include_once "data/adminsFunctions.php";
+include_once "data/categoriesFunctions.php";
+include_once "data/wallpapersFunctions.php";

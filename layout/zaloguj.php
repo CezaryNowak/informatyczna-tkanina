@@ -1,6 +1,6 @@
 <?php
 
-require_once setDefaultPath('controllers/layout/zalogujController.php');
+require_once 'controllers/layout/zalogujController.php';
 ?>
 <div class="modal fade" id="loginPopup">
     <div class="modal-dialog modal-dialog-centered">
