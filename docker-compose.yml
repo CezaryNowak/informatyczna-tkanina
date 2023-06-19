@@ -7,7 +7,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./public/:/var/www/html/
+      - ./:/var/www/html/
       - ./logs/nginx:/var/log/nginx/
     networks:
       - internal
@@ -17,7 +17,7 @@ services:
       context: .
       dockerfile: docker/php/Dockerfile
     volumes:
-      - ./public/:/var/www/html/
+      - ./:/var/www/html/
       - ./logs/php.log:/var/log/fpm-php.www.log
     networks:
       - internal
