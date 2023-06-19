@@ -8,6 +8,7 @@ Simple project of website where you can download wallpapers.
 * [Prerequisites](#Prerequisites)
 * [Installation](#Installation)
 * [Login details](#Login-details)
+* [Future](#Future)
 * [Walkthrough](#Walkthrough)
     * [Layout](#Layout)
       * [Header](#Header)
@@ -64,6 +65,9 @@ Simple project of website where you can download wallpapers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Future
+* I want to add docker
+* I want to create simple framework mvc 
 # Walkthrough
 
 ## **Layout**
