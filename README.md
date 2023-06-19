@@ -67,7 +67,8 @@ Simple project of website where you can download wallpapers.
 
 ### Future
 * I want to add docker
-* I want to create simple framework mvc 
+* I want to create simple framework mvc
+* I want to add english translation to site
 # Walkthrough
 
 ## **Layout**
